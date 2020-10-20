@@ -9,7 +9,7 @@ const storeService = new StoreService();
 require("dotenv").config();
 
 mongoose.connect(
-  "mongodb+srv://husainam:abbas1234@cluster0.oaxy6.mongodb.net/test?retryWrites=true&w=majority",
+  "mongodb+srv://mongodblogin@cluster0.oaxy6.mongodb.net/test?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
 );
 app.use(
