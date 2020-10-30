@@ -6,7 +6,7 @@ body {
   height: 100vh;
 }
 .title {
-  font-size: 88px;
+  font-size: 80px;
   position: absolute;
   z-index: 10;
 
@@ -181,15 +181,15 @@ body {
 }
 
 .store-number {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #454e53;
   color: #b5adad;
   border-radius: 50%;
-  font-size: 12px;
+  font-size: 18px;
   transition: all 0.2s ease-in-out;
 }
 
@@ -222,4 +222,45 @@ body {
   align-items: center;
   color: #514c4c;
   font-size: 20px;
+}
+.stores-list-container-2 {
+  right: 100px;
+  top: 320px;
+  position: absolute;
+  width: 350px;
+  z-index: 10;
+  bottom: 20px;
+  background-color: white;
+  border-radius: 30px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  display: flex;
+  overflow-y: hidden;
+}
+.stores-list-2 {
+  width: 100%;
+  overflow-y: scroll;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+#area {
+  right: 100px;
+  top: 20px;
+  position: absolute;
+  width: 350px;
+  height: 50px;
+  z-index: 10;
+  font-size: x-large;
+
+  padding: 20px;
+  padding-top: 30px;
+  background-color: white;
+  border-radius: 30px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  display: flex;
+  overflow-y: hidden;
+  text-align: center;
+  align-items: center;
 }
